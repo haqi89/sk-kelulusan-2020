@@ -53,7 +53,7 @@
             <center>Nama Siswa
           </th>
           <th>
-            <center>Kelas
+            <center>Kompetentsi Keahlian
           </th>
           <th>
             <center>Status
