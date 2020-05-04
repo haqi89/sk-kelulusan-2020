@@ -13,7 +13,7 @@ $nisn = addslashes(trim($_POST['nisn']));
 
 // menyeleksi data admin dengan nisn dan password yang sesuai
 // $data = mysqli_query($koneksi, "select * from login where nisn='$nisn' and password='$password'");
-$data = mysqli_query($koneksi, "select nisn from login where nisn='$nisn' ");
+$data = mysqli_query($koneksi, "select * from login where nisn='$nisn' ");
 
 
 // menghitung jumlah data yang ditemukan
