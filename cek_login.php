@@ -3,18 +3,18 @@
 // mengaktifkan session php
 
 session_start();
-echo "salah php session";
+// echo "salah php session";
 
 // menghubungkan dengan koneksi
-// include 'koneksi.php';
-echo "salah php inlucde";
+include 'koneksi.php';
+// echo "salah php inlucde";
 
 // menangkap data yang dikirim dari form
 // belum mengunakan MD5
 $nisn = addslashes(trim($_POST['nisn']));
 // $nisn = $_POST['nisn'];
 // $password = md5($_POST['password']);
-echo "salah php";
+// echo "salah php";
 
 // menyeleksi data admin dengan nisn dan password yang sesuai
 // $data = mysqli_query($koneksi, "select * from login where nisn='$nisn' and password='$password'");
