@@ -3,9 +3,11 @@
 // mengaktifkan session php
 
 session_start();
+echo "salah php session";
 
 // menghubungkan dengan koneksi
 include 'koneksi.php';
+echo "salah php inlucde";
 
 // menangkap data yang dikirim dari form
 // belum mengunakan MD5
