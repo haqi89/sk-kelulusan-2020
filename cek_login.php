@@ -12,6 +12,7 @@ include 'koneksi.php';
 $nisn = addslashes(trim($_POST['nisn']));
 // $nisn = $_POST['nisn'];
 // $password = md5($_POST['password']);
+echo "salah php";
 
 // menyeleksi data admin dengan nisn dan password yang sesuai
 // $data = mysqli_query($koneksi, "select * from login where nisn='$nisn' and password='$password'");
