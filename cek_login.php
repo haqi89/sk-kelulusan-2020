@@ -27,7 +27,6 @@ if ($cek > 0) {
         $_SESSION['nisn'] = $nisn;
         $_SESSION['status'] = "LULUS";
         header("location:tampil-siswa.php?nisn=$nisn");
-        // header("location:tampil-akl.php?nik=$nik");
     } else {
         echo "salah1";
         header("location:index.php?pesan=gagal1");

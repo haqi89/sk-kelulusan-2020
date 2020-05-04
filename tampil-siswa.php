@@ -73,6 +73,7 @@
       nisn,
       nama_siswa,
       kelas,
+      kode_kelas,
       nama_file,
       status
       from login where nisn='$nisn' ");
