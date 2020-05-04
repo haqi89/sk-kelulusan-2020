@@ -1,5 +1,5 @@
 <?php
-echo "salah php";
+// echo "salah php";
 // mengaktifkan session php
 
 session_start();
