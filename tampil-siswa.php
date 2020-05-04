@@ -15,7 +15,6 @@
 
   <script src="../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-latest.js"></script>
-  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
 </head>
 
 <body>
