@@ -1,6 +1,7 @@
 <?php
+echo "salah php";
 // mengaktifkan session php
- ob_start();
+ob_start();
 
 session_start();
 
@@ -9,8 +10,8 @@ include 'koneksi.php';
 
 // menangkap data yang dikirim dari form
 // belum mengunakan MD5
-// $nisn = addslashes(trim($_POST['nisn']));
-$nisn = $_POST['nisn'];
+$nisn = addslashes(trim($_POST['nisn']));
+// $nisn = $_POST['nisn'];
 // $password = md5($_POST['password']);
 
 // menyeleksi data admin dengan nisn dan password yang sesuai
