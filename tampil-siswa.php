@@ -96,7 +96,7 @@
             <center><?php echo $d['status']; ?>
           </td>
           <td>
-            <center><?php echo $d['nama_file']; ?>
+            <center><a type="button" class="btn btn-info btn-sm" href="pdf/<?php echo $d['kode_kelas']; ?>/<?php echo $d['nama_file']; ?>" >Download</a>
           </td>
         </tr>
 
