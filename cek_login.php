@@ -24,7 +24,7 @@ $data = mysqli_query($koneksi, "select * from login where nisn='$nisn' ");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($data);
 
-echo "cek2";
+// echo "cek2";
 
 if ($cek > 0) {
     $login = mysqli_fetch_assoc($data);
@@ -32,7 +32,7 @@ if ($cek > 0) {
     if ($login['status']=="LULUS") {
         $_SESSION['nisn'] = $nisn;
         $_SESSION['status'] = "LULUS";
-        echo "cek";
+        // echo "cek";
         // header("location:tampil-siswa.php?nisn=$nisn");
     } else {
         echo "salah1";
