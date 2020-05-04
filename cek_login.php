@@ -33,7 +33,7 @@ if ($cek > 0) {
         $_SESSION['nisn'] = $nisn;
         $_SESSION['status'] = "LULUS";
         // echo "cek";
-        // header("location:tampil-siswa.php?nisn=$nisn");
+        header("location:tampil-siswa.php?nisn=$nisn");
     } else {
         echo "salah1";
         header("location:index.php?pesan=gagal1");
