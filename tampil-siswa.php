@@ -40,6 +40,7 @@
 
     </div>
 
+<a style="margin-bottom: 20px;" type="button" class="btn btn-danger btn-sm" href="logout.php" >Logout</a>
     <table class="table table-bordered table-hover" id="domainsTable">
       <thead>
         <tr>
