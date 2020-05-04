@@ -1,5 +1,7 @@
 <?php
 // mengaktifkan session php
+ ob_start();
+
 session_start();
 
 // menghubungkan dengan koneksi
@@ -19,6 +21,7 @@ $data = mysqli_query($koneksi, "select * from login where nisn='$nisn' ");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($data);
 
+echo "cek2";
 
 if ($cek > 0) {
     $login = mysqli_fetch_assoc($data);
@@ -27,7 +30,7 @@ if ($cek > 0) {
         $_SESSION['nisn'] = $nisn;
         $_SESSION['status'] = "LULUS";
         echo "cek";
-        header("location:tampil-siswa.php?nisn=$nisn");
+        // header("location:tampil-siswa.php?nisn=$nisn");
     } else {
         echo "salah1";
         header("location:index.php?pesan=gagal1");
