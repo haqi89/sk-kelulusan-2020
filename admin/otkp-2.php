@@ -105,7 +105,7 @@
               <center><?php echo $d['kelas']; ?>
             </td>
             <td>
-              <center><?php echo $d['status']; ?>
+              <center><?php echo $d['nama_file']; ?>
             </td>
             <td>
               <center>
