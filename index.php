@@ -10,7 +10,7 @@
 
 <body>
   <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
   <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   <script src="js/jquery-latest.js"></script>
   <script src="" charset="utf-8"></script>
